@@ -1,0 +1,29 @@
+ @font-face { font-family: Typewriter; src: url('JMH Typewriter.otf'); } 
+
+ html *
+ {
+    font-family: Typewriter !important;
+ }
+ 
+ body {
+ 	background-image : url(http://www.zingerbugimages.com/backgrounds/white_construction_paper_seamless.jpg);
+ }
+
+.main {
+	padding: 10%;
+}
+
+#date {
+	float: right;
+	text-shadow: 0 0 7px #ff9999;
+	color: #c61515;
+}
+
+#lexi {
+	text-shadow: 0 0 7px #d245f9;
+	color: #c90aff;
+}
+
+#introduction {
+	text-align: justify;
+}
