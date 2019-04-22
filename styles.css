@@ -2,7 +2,6 @@
 
  html *
  {
-	 font-size: 1em;
     font-family: Typewriter !important;
  }
  
@@ -12,6 +11,7 @@
 
 .main {
 	padding: 10%;
+	padding-bottom: 20%;
 }
 
 #date {
