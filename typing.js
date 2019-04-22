@@ -1,4 +1,4 @@
-var typeSpeed = 1;
+var typeSpeed = 100;
 
 $(document).ready(function () {
 	new TypeIt('#date', {
@@ -56,8 +56,9 @@ function typeLastLine() {
 		deleteSpeed: 80,
 		speed: typeSpeed,
 		afterComplete: (instance) => {
+			$("html, body").animate({ scrollTop: $(document).height() }, 1000);
 			typeNextText(typePoem);
-			audio.play();
+			
 		}
 	})
 	.pause(250)
@@ -69,6 +70,12 @@ function typePoem() {
 	new TypeIt('#poem', {
 		deleteSpeed: 80,
 		speed: typeSpeed,
+		
+		afterStep: (step, queue, instance) => {
+			if(typeof step[1] === typeof {}) {
+			$("html, body").animate({ scrollTop: $(document).height() }, 1000);
+		}
+		  },
 		
 		afterString: (step, queue, instance) => {
 		     $("html, body").animate({ scrollTop: $(document).height() }, 1000);
