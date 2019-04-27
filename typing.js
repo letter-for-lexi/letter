@@ -44,6 +44,8 @@ function typeIntroduction() {
 	.type('During that time I have had a ton of joy, laughter and also remorse or regret about some of my actions. ')
 	.pause(350)
 	.type('But that is what love is about, having a rollercoaster of emotions. ')
+	.pause(300)
+	.type('And you\'ve surely made me feel a lot of them! 😊')
 	.pause(400)
 	.type('<br>')
 	.pause(250)
@@ -121,5 +123,7 @@ function typeCongratulations() {
 	.type('<br>')
 	.type('Happy monthversary, my one and only, <span id="lexi">Lexi</span>')
 	.type('<br>')
+	.pause(500)
+	.type('I really do love you a LOT' )
 	.go();
 }
