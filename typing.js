@@ -1,4 +1,4 @@
-var typeSpeed = 100;
+var typeSpeed = 1;
 
 $(document).ready(function () {
 	new TypeIt('#date', {
@@ -45,14 +45,15 @@ function typeIntroduction() {
 	.pause(350)
 	.type('But that is what love is about, having a rollercoaster of emotions. ')
 	.pause(300)
-	.type('And you\'ve surely made me feel a lot of them! 😊')
+	.type('And you\'ve surely made me feel a lot of them positive ones! 😊')
 	.pause(400)
 	.type('<br>')
 	.pause(250)
 	.type('You cannot imagine how glad I am that I met you. ')
 	.pause(250)
-	.type()
-	.type('You\'re such a perfect person. I love that you are reasonable, smart, cute, pretty and at first shy, but when you do open up, you sure as hell blossom. ')
+	.type('You\'re such a perfect person. ')
+	.pause(300)
+	.type('I love that you are reasonable, smart, cute, pretty and at first shy, but when you do open up, you sure as hell blossom. ')
 	.pause(200)
 	.type('<br>')
 	.pause(450)
@@ -123,7 +124,8 @@ function typeCongratulations() {
 	.type('<br>')
 	.type('Happy monthversary, my one and only, <span id="lexi">Lexi</span>')
 	.type('<br>')
+	.type('<br>')
 	.pause(500)
-	.type('I really do love you a LOT' )
+	.type('❤️❤️❤️ Words can\'t explain how much I love you ❤️❤️❤️' )
 	.go();
 }
