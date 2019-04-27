@@ -1,4 +1,4 @@
-var typeSpeed = 1;
+var typeSpeed = 100;
 
 $(document).ready(function () {
 	new TypeIt('#date', {
